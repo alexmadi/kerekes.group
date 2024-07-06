@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    background: #eee;
+
+    .button {
+        margin: 0 15px 15px;
+        background: #444;
+        display: inline-block;
+        padding: 10px;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background: #333;
+        }
+    }
+}
+
+html, body {
+
+}
+
+.main {
+    //padding: 100px;
+}
+
+.display {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 3px solid blue;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.required {
+    color: red;
+}
+
+.dialog {
+    display: none;
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    background: #ccc;
+    margin: 0 auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.dialog.active {
+    display: block;
+}
+
+.dialog_close {
+    display: inline-block;
+    background: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dialog_content {
+    padding: 10px;
+}
+
+.dialog_inner {
+    background: #eee;
+    width: 150px;
+    display: inline-block;
+    height: 100px;
+    margin: 20px;
+    cursor: pointer;
+}
+.dialog_display {
+    padding: 5px;
+    background: #ccc;
+    display: inline-block;
+}
