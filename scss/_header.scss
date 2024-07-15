@@ -1,3 +1,17 @@
-.main {
-    background-color: blue;
+.logo {
+    max-width: 200px;
+
+    @include media(mobile) {
+        width: 100%;
+    }
+}
+
+nav.navbar.bootsnav {
+    .navbar-brand {
+        padding-top: 30px;
+
+        @include media(mobile) {
+            padding: 16px 15px;
+        }
+    }
 }
